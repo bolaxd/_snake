@@ -1,0 +1,90 @@
+
+body{
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+
+
+#arrowCont {
+	
+position: absolute;
+	
+width: 100%;
+	
+height: 20%;
+	
+bottom: 10vh;
+}
+
+
+
+.arrows {
+	
+height: 70%;
+}
+
+
+
+
+#right {
+	
+float: right;
+
+transform:scale(0.7,0.7);
+	
+opacity: 1;
+	
+
+
+background-color: 
+transparent;
+	
+border-radius: 100%;
+	
+-webkit-user-select: none;
+	
+-webkit-touch-callout: none;
+}
+
+
+
+#left {
+	
+float: left;
+
+transform:scale(0.7,0.7);
+	
+opacity: 1;
+	 
+background-color: transparant;
+	
+border-radius: 100%;
+	
+-webkit-user-select: none;
+	
+-webkit-touch-callout: none;
+}
+
+
+#scoreId {
+	
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%, 0);
+	
+color: white;
+width:30%;
+text-align:center;
+
+	
+bottom: 30vh;
+	
+margin-top: 12px; 
+	
+font-size: 22px;
+	
+font-weight:bold;
+	
+text-shadow:1px 1px 0px black;
+}
