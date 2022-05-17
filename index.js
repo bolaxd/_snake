@@ -193,7 +193,7 @@ var length = 40; //length of ground
 
 var geometry = new THREE.PlaneGeometry( width, length); //ThreeJS function to create plane geometry
 var texture;
-texture = new THREE.TextureLoader().load( "https://www.dropbox.com/s/rro7rfw1i34lmxp/Proyek%20Baru%20161%20%5B19202F3%5D.png?dl=0" );
+texture = new THREE.TextureLoader().load( "https://dl.dropboxusercontent.com/s/f8exr3zow9nqsol/grass.jpg?dl=0" );
 var groundmat = new THREE.MeshLambertMaterial({ //Sets color and material attributes for plane
 	color: 0x00c0ff,
 	map:texture, 
