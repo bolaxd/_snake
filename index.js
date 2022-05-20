@@ -37,7 +37,7 @@ var myCollisionVar=0;
 var difficultVar = 10;
 var ballTimerVar = 320;
 
-var niceSong = new Audio("https://a.uguu.se/HPoqkVWr.mp3");
+var niceSong = new Audio("https://a.uguu.se/OlQLwTtW.mp3");
 
 //Camera values
 const FOV = 45;
